@@ -29,7 +29,7 @@ class HomePage extends StatelessWidget {
       return Container(
         height: 150,
         width: double.infinity,
-        margin: const EdgeInsets.only(top: 20),
+        margin: const EdgeInsets.only(top: 10),
         decoration: BoxDecoration(
             color: Colors.green, borderRadius: BorderRadius.circular(17)),
       );
@@ -76,8 +76,6 @@ class HomePage extends StatelessWidget {
               const SizedBox(
                 height: 10,
               ),
-              kotakHijau(),
-              kotakHijau(),
               kotakHijau(),
               kotakHijau(),
               kotakHijau(),
